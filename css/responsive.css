@@ -1,0 +1,125 @@
+@media only screen and (min-width: 885px) {
+    header {
+        padding: 60px 30px;
+    }
+
+    .try-it-button {
+        padding: 15px 60px;
+    }
+
+    .main-container {
+        padding: 20px 50px;
+        flex-direction: row;
+        text-align: left;
+        gap: 100px;
+    }
+
+    .main-text {
+        width: 80%;
+    }
+
+    .huddle-slogan {
+        font-size: 2.2em;
+        margin: 20px 0;
+    }
+
+    .huddle-description {
+        font-size: 1.3em;
+    }
+
+    .get-started-button {
+        padding: 30px 60px;
+    }
+
+    .title-card {
+        font-size: 2em;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .cards > img {
+        width: 60%;
+    }
+
+    footer {
+        padding: 100px 50px;
+    }
+
+    .footer-huddle-logo {
+        margin-bottom: 50px;
+    }
+
+    .huddle-info > li {
+        margin: 12px 0 38px;
+    }
+
+    .about-huddle {
+        margin: 0 auto;
+        columns: 2;
+        column-gap: 120px;
+    }
+
+    .copyright {
+        text-align: right;
+    }
+}
+
+@media only screen and (min-width: 1350px) {
+
+    .huddle-slogan {
+        font-size: 3.2em;
+    }
+
+    .get-started-button {
+        padding: 30px 120px;
+    }
+
+    .cards {
+        flex-direction: row-reverse;
+        margin: 50px 130px;
+        text-align: left;
+        gap: 100px;
+    }
+
+    .cards:nth-child(2) {
+        flex-direction: row;
+    }
+    
+    .cards .text {
+        padding-left: 70px;
+    }
+
+    .cards .text:nth-child(2) {
+        padding-right: 70px;
+    }
+
+    .title-card {
+        font-size: 2em;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .cards > img {
+        width: 40%;
+    }
+
+    .build-community-card {
+        max-width: 900px;
+    }
+
+    footer {
+        padding: 100px;
+    }
+
+    .huddle-footer {
+        display: flex;
+    }
+
+    .footer-huddle-logo {
+        width: 450px;
+    }
+
+    .huddle-footer ul {
+        max-width: 500px;
+    }
+}

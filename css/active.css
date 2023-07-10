@@ -1,0 +1,25 @@
+button, .social-media .icons:hover {
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+:root {
+    --grayishblue: rgb(128, 141, 153);
+}
+
+.get-started-button:hover {
+    background-color: rgb(235, 159, 190);
+}
+
+.try-it-button:hover {
+    color: var(--grayishblue);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.social-media .icons:hover {
+    color: rgb(255, 83, 169);
+    border: 2px solid rgb(255, 83, 169);
+}
